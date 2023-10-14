@@ -20,4 +20,6 @@ buttonStart.addEventListener('click', () => {
 
 buttonStop.addEventListener('click', () => {
   clearInterval(intervalDicrimentId);
+  buttonStart.disabled = false;
+  document.body.style.background = '';
 });
