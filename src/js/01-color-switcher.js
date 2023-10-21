@@ -1,6 +1,5 @@
-const buttonsEl = document.querySelectorAll('button');
-const buttonStart = buttonsEl[0];
-const buttonStop = buttonsEl[1];
+const buttonStart = document.querySelector('button[data-start]');
+const buttonStop = document.querySelector('button[data-stop]');
 
 let intervalDicrimentId;
 function getRandomHexColor() {
